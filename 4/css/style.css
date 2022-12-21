@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    height: 60px;
+}
+
+.header__img {
+    height: 700px;
+    width: 600px;
+    
+}
+
+
+
+.one {
+    background-color: white;
+    color: #156963;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.two {
+    background-color: #156963;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.header__item {
+    font-family: 'Nunito';
+    margin:0 20px;
+    width: 20px;
+    font-weight: 600;
+}
+
+.header__logo {
+    width: 40px;
+    height: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    width: 400px;
+    font-size: 50px;
+    color: #156963;
+    
+}
+
+.header__text {
+    font-size: 20px;
+}
+
+.gray {
+    color: gray;
+}
+
+.header__text {
+
+    width: 400px;
+    height: 96px;
+}
+
+
+.foto {
+    height: 20px;
+    width: 20px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__content {
+    padding-top: 200px;
+    margin: 25px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bth {
+    padding: 10px;
+}
+
+.one__bth {
+    background-color: white;
+    padding: 10px 20px;
+    color: #156963;
+    width: 50%;
+    text-align: center;
+}
+
+.two__bth {
+    background-color: #156963;
+    padding: 10px 20px;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.card1{
+   
+    padding: 20px;
+    border: 1px solid rgb(187, 187, 187);
+    font-family: Tahoma;
+}
+
+.card__img {
+    width: 30px;
+    height: 30px;
+}
+
+h4 {
+    color: #156963;
+    width: 150px;
+    font-family: Tahoma;
+}
+
+.card__text {
+    font-size: 13px;
+    width: 200px;
+}
+
+.mini__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.plants {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px; 
+}
+
+.plants__title2 {
+    display: flex;
+    align-items: center;
+}
+
+.arrow__img {
+    width: 10px;
+    height: 10px;
+}
+.price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.plant__name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.plant__idr {
+    font-weight:bold;
+    text-align: center;
+}
+
+.relaxed {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.relaxed__item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.visit {
+    width: 1168px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.visit__text {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.relaxed__img {
+    width: 100%;
+    display: flex;
+   align-items: flex-end;
+}
+
+.block__text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.bth__text {
+    background-color: #156963;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    width: 152px;
+    height: 40px;
+}
+
+
+
+
+.footer_txt {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #156963;
+}
+
+.info_zag {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.info_zag1 {
+    color: #333333;
+
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+}
+
+.all {
+    margin-top: 50px;
+    margin-bottom: 50px;   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bth__text1 {
+    background-color: #156963;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    width: 51px;
+    height: 22px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 2px;
+}
