@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">FLOWERS</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Price</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">About us</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/roza.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bum.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/tlp.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="all__card">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Заказать цветы</h5>
+              <p class="card-text">У нас вы можете заказать цветы для близкого человека. Мы можем доставить цветы по адресу или оформите заявку для получения букета в нашем ближайшем салоне! </p>
+                <div class="bth">
+                    <a href="#" class="btn btn-primary">Доставка по адресу</a>
+                    <a href="#" class="btn btn-primary">Забрать в салоне</a>
+                </div>
+            </div>
+          </div>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Имя</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Введите отзыв</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Напишите ваш отзыв">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Отправить</button>
+            </div>
+          </form>
+        </div>
+        <nav aria-label="breadcrumb">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Price</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Flowers</li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-4">
+              <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Подарить цветы на расстоянии – это реально!</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Как цветы влияют на человека?</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Как выбрать цветы?</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#list-item-1" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <h4 id="list-item-1">Подарить цветы на расстоянии – это реально!</h4>
+                <p>Современный человек может подарить цветы, даже не выходя из дома. При этом ему не придется отвлекаться от повседневных дел. Осуществить заказ букета можно через Интернет с помощью любого электронного гаджета.<br>
+                Доставку цветов в другие города осуществляют многие интернет-магазины и специальные флористические организации. Эту услугу нередко предлагают обычные цветочные магазины. Стоимость доставки будет зависеть от расстояния и стоимости букета, однако, в любом случае, она будет не особо высокой.<br>
+                Как действует доставка цветов? Все очень просто:<br>
+                1.Клиент определяется с выбором и оформляет заказ на букет.<br>
+                2.Логистическая компания обрабатывает заказ, подготавливает его и отправляет по указанному адресу.<br>
+                3.Через 2-3 дня цветы прибывают в пункт назначения в идеальном, свежем виде.<br>
+                4.Отправить цветы в другой город можно легко и непринужденно! Главное – выбрать ответственную компанию-отправителя, которая сможет выполнить пожелания клиента в полной мере.</p>
+                <h4 id="list-item-2">Как цветы влияют на человека?</h4>
+                <p>Давно доказано, что запахи, которые мы ощущаем, влияют не только на наше настроение, но и на физическое состояние организма. Этому свойству посвящено целое направление в медицине – ароматерапия. Фитонциды, которые выделяют часть растений, способны очистить воздух от болезнетворных бактерий, а ряд запахов способен улучшить работу отдельных систем и всего организма в целом.<br>
+                Ромашка – ее аромат положительно влияет на состояние нервной системы, успокаивает, помогает бороться с бессонницей, приводит в норму давление.<br>
+                Роза – создает в помещении атмосферу умиротворенности, избавляет от головокружения и головных болей, способствует развитию креативных способностей.<br>
+                Тюльпаны – их запах улучшает настроение, повышает жизненный тонус.<br>
+                Лилии – легкий аромат некоторых сортов может помочь избавиться от тревог и освежить мысли. Но с лилиями нужно быть осторожными, так как разновидности с сильным запахом могут вызвать головную боль, если поставить большой букет в маленьком непроветриваемом помещении.<br>
+                Пионы – улучшают сон, снижают уровень тревожности.<br>
+                Орхидеи – освежают и придают силы.<br>
+                Мята – снимает усталость и напряжение.<br>
+                Ирисы – их аромат называют любовным, считается, что запах ирисов благотворно влияет на отношения пары.</p>
+                <h4 id="list-item-3">Как выбрать цветы?</h4>
+                <p>Если возможности лично преподнести выбранный букет нет, будет полезна доставка букетов по городу и другим городам страны. Стоит учитывать следующие особенности при выборе букета:<br>
+                для молодых девушек можно выбирать букеты, которые имеют нежные цвета;
+                для дам в возрасте лучше отдать предпочтение композициям, которые отличаются яркостью и пышностью;<br>
+                пионы, свежие розы, орхидеи для торжественных событий преподносят в нечетном количестве;<br>
+                в том случае, если предстоит яркое торжество, тогда от яркого декора стоит отказаться.<br>
+                Оригинально будут смотреться те цветочные композиции, в которых есть розы, а упаковка выполнена в качестве картонной коробки или же корзинки. Если подарок необходим для молодоженов, в таком случае можно выбрать очень пышную композицию.</p>
+              </div>
+            </div>
+          </div>
+          <footer class="container footer">
+        <div class="all">
+        <div class="info">
+            <h3 class="footer_txt">FLOWERS</h3>
+            <div class="text__info">
+                <h4 class="info_zag">Plantku House</h4>
+                <p class="text__info1">Jl. Laksda Adisucipto No.51, Demangan, Kec.<br>Depok, Kota Yogyakarta, Daerah Istimewa<br>Yogyakarta 55282</p>
+            </div>
+        </div>
+        <div class="kami">
+            <h4 class="info_zag">Perusahaan</h4>
+            <div class="text__kami">
+                <p>Tentang Kami</p>
+                <p>Hubungi Kami</p>
+            </div>
+        </div>
+        <div class="tanaman">
+            <h4 class="info_zag">Produk</h4>
+            <div class="text__tanaman">
+                <p>Tanaman</p>
+                <p>Tanaman Lain</p>
+            </div>
+        </div>
+        <div class="mail">
+            <h4 class="info_zag">Berlangganan Email Kami</h4>
+            <p>Masukan Alamat Email</p>
+            <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
